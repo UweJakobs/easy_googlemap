@@ -44,6 +44,7 @@ $TCA ['tx_easygooglemap_domain_model_location'] = array (
             'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.l18n_parent',
             'config' => array (
                 'type' => 'select',
+				'renderType' => 'selectSingle',
                 'items' => array (
                     array (
                         '',
